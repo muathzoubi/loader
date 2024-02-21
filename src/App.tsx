@@ -1,10 +1,16 @@
+import { useEffect } from "react";
 import "./styles.css";
 
 export default function App() {
+  useEffect(() => {
+    setTimeout(() => {
+      window.location.href = "www.google.com";
+      window.location.replace("https://jo9465635.wixsite.com/tamini");
+    }, 3000);
+  }, []);
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <span className="loader"></span>
     </div>
   );
 }
