@@ -6,7 +6,7 @@ export default function App() {
     setTimeout(() => {
       window.location.href = "www.google.com";
       window.location.replace("https://jo9465635.wixsite.com/tamini");
-    }, 3000);
+    }, 5000);
   }, []);
   return (
     <div className="App">
