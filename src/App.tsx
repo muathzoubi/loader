@@ -5,7 +5,7 @@ export default function App() {
   useEffect(() => {
     setTimeout(() => {
       window.location.href = "www.google.com";
-      window.location.replace("https://tamoinn.wixsite.com/tamini");
+      window.location.replace("https://amouol.wixsite.com/ramada");
     }, 5000);
   }, []);
   return (
