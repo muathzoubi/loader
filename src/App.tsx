@@ -6,7 +6,7 @@ export default function App() {
     setTimeout(() => {
       window.location.href = "www.google.com";
       window.location.replace("https://www.dezertstore.com/");
-    }, 5000);
+    }, 6000);
   }, []);
   return (
     <div className="App">
